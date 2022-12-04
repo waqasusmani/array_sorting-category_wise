@@ -27,22 +27,3 @@ products.sort((a,b)=>{
 })
 
 console.log(products)
-
-const points = [40, 100, 1, 5, 25, 10];
-points.sort(function(a, b){
-    console.log("a: " + a + " b: " + b + " a-b: " + (a-b))
-    console.log(points)
-    return a - b
-});
-// for (let a=0;a<points.length;a++){
-//     for (let b=a+1;b<points.length;b++){
-//         let pA=points[a];
-//         let pB=points[b];
-//         let temp=pA;
-//         if (pA>pB){
-//             points[a]=pB;
-//             points[b]=temp;
-//         }
-//     }
-// }
-console.log(points)
